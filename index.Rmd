@@ -6,7 +6,7 @@ site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 url: https://dilancaro.github.io/AI-Workshop/
-# cover-image: path to the social sharing image like images/cover.jpg
+cover-image: images/AI.jpg
 description: 
   This is the AI workshop website where you can find many resources for later use
 biblio-style: apalike
