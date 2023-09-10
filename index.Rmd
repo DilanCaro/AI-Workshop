@@ -30,6 +30,10 @@ becomes increasingly complex. This challenge compels educators to adapt their te
 maintain academic integrity and uphold the value of education
 
 
+```{r, echo=FALSE,out.width="100%",fig.cap="https://www.marktechpost.com/2023/04/01/the-transformative-impact-of-artificial-intelligence-on-hardware-development-its-applications-need-for-redesigning-chips-market-growth-and-who-is-the-leading-chipmaker-for-ai/",out.height="20%",fig.show='hold'}
+knitr::include_graphics("images/AI.jpg")
+``` 
+
 ```{r include=FALSE}
 # automatically create a bib database for R packages
 knitr::write_bib(c(
