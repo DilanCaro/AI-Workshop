@@ -15,6 +15,13 @@ csl: chicago-fullnote-bibliography.csl
 
 # Welcome {-}
 
+<center>
+```{r, echo=FALSE,out.width="40%",out.height="20%",fig.show='hold'}
+par(mar = c(4, 4, .1, .1))
+knitr::include_graphics(c("images/OSRC.jpg","images/JohnJay.png"))
+``` 
+</center>
+
 The rapid advancement of Artificial Intelligence (AI) presents both challenges and opportunities for ed-
 ucators and students alike. Professors are confronted with the daunting task of addressing the emerging
 issue of academic dishonesty fueled by AI technology. With tools that can generate essays, solve problems,
