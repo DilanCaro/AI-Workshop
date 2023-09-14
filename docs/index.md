@@ -31,10 +31,6 @@ and even mimic human responses, detecting plagiarism and ensuring the authentici
 becomes increasingly complex. This challenge compels educators to adapt their teaching methodologies, implement innovative assessment techniques, and employ AI-powered plagiarism detection tools to
 maintain academic integrity and uphold the value of education
 
-<div class="figure">
-<img src="images/AI.jpg" alt="https://www.marktechpost.com/2023/04/01/the-transformative-impact-of-artificial-intelligence-on-hardware-development-its-applications-need-for-redesigning-chips-market-growth-and-who-is-the-leading-chipmaker-for-ai/" width="100%" height="20%" />
-<p class="caption">(\#fig:unnamed-chunk-3)https://www.marktechpost.com/2023/04/01/the-transformative-impact-of-artificial-intelligence-on-hardware-development-its-applications-need-for-redesigning-chips-market-growth-and-who-is-the-leading-chipmaker-for-ai/</p>
-</div>
 ## Overview {-}
 
 ### 1 Introduction to Artificial Intelligence (AI) {-}
