@@ -58,6 +58,7 @@ The "LT" was presented at Dartmouth Summer Research Project on Artificial Intell
 Programs developed during these years were staggering. Computers were being able to solve algebra word problems, proving theorems and even learning to speak. Many believed that fully intelligent machines would be built in less than 20 years which cause DARPA to fund these efforts as well.
 
 #### General Problem Solver: ELIZA [@ELIZA] {-}
+
 -   Created at MIT by Joseph Weizenbaum
 -   Simulated conversation using pattern matching
 -   Gave an illusion of understanding but lacked real comprehension
@@ -83,6 +84,7 @@ Programs developed during these years were staggering. Computers were being able
 If nowadays you want to run the ELIZA AI, you can do so on MacOS. It comes as an Easter egg on emacs.
 
 **Step-by-Step Instructions**
+
 - Step 1: Open Terminal. Terminal can be found in the Applications folder in Finder, in Launchpad, or by searching in Spotlight.
 
 - Step 2: Type ‘emacs’ followed by the return key.
