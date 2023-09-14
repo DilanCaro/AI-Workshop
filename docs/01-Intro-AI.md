@@ -1,8 +1,8 @@
-# Introduction to Artificial Intelligence (AI) {.unnumbered}
+# Introduction to Artificial Intelligence (AI) {-}
 
-## Brief history and evolution of AI {.unnumbered}
+## Brief history and evolution of AI {-}
 
-### The Computer {.unnumbered}
+### The Computer {-}
 
 Computers have existed for hundreds of years , with one of the earliest inventions being the abacus which it's thought to have been invented around the 2<sup>nd</sup> century BC.
 
