@@ -2,7 +2,7 @@ bookdown::bs4_book:
   css: style.css
   theme:
     primary: "#096B72"
-  repo: https://dilancaro.github.io/AI-Workshop/
+  repo: https://github.com/DilanCaro/AI-Workshop
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
