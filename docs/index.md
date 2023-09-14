@@ -5,8 +5,8 @@ date: "2023-09-14"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
-url: https://dilancaro.github.io/AI-Workshop/
-cover-image: images/AI_DALLE2.png
+url: https://github.com/DilanCaro/AI-Workshop
+cover-image: images/AI_DALLE3.jpg
 description: 
   This is the AI workshop website where you can find many resources for later use
 biblio-style: apalike
