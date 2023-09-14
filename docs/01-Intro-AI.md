@@ -6,9 +6,10 @@
 
 Computers have existed for hundreds of years , with one of the earliest inventions being the abacus which it's thought to have been invented around the 2<sup>nd</sup> century BC.
 
-\begin{figure}
-\includegraphics[width=1\linewidth,height=0.2\textheight]{images/abacus} \caption{Chinese abacus-suanpan https://enthu.com/blog/abacus/who-invented-the-abacus/}(\#fig:unnamed-chunk-1)
-\end{figure}
+<div class="figure">
+<img src="images/abacus.jpg" alt="Chinese abacus-suanpan https://enthu.com/blog/abacus/who-invented-the-abacus/" width="100%" height="20%" />
+<p class="caption">(\#fig:unnamed-chunk-1)Chinese abacus-suanpan https://enthu.com/blog/abacus/who-invented-the-abacus/</p>
+</div>
 
 The first computers were mechanical computers. This computers were designed to solve complex number intensive problems. Later, it evolved to computers with electronic components. Below a brief timeline on computers[@computer]:
 
@@ -72,9 +73,10 @@ Programs developed during these years were staggering. Computers were being able
 -   Recently discovered in MIT archives and published online.
 -   Source-code showcases historical programming techniques and software layering.
 
-\begin{figure}
-\includegraphics[width=1\linewidth,height=0.2\textheight]{images/ELIZA1} \caption{Conversation with ELIZA https://en.wikipedia.org/wiki/ELIZA}(\#fig:unnamed-chunk-2)
-\end{figure}
+<div class="figure">
+<img src="images/ELIZA1.png" alt="Conversation with ELIZA https://en.wikipedia.org/wiki/ELIZA" width="100%" height="20%" />
+<p class="caption">(\#fig:unnamed-chunk-2)Conversation with ELIZA https://en.wikipedia.org/wiki/ELIZA</p>
+</div>
 
 #### ELIZA on MacOS {-}
 
@@ -117,13 +119,15 @@ We have not improved much on how AI is made, however, the physical limits were h
 Breakthroughs like IBM's Deep Blue defeating a world chess champion in 1997 and Google's AlphaGo defeating a Go world champion in 2016 brought AI into the limelight.
 
 **AlphaGO**
-\begin{figure}
-\includegraphics[width=1\linewidth]{images/alphago} \caption{AlphaGo vs. Go Champion https://www.popularmechanics.com/technology/a19844/googles-alphago-ai-wins-first-round-against-go-champion/}(\#fig:unnamed-chunk-3)
-\end{figure}
+<div class="figure">
+<img src="images/alphago.png" alt="AlphaGo vs. Go Champion https://www.popularmechanics.com/technology/a19844/googles-alphago-ai-wins-first-round-against-go-champion/" width="100%" />
+<p class="caption">(\#fig:unnamed-chunk-3)AlphaGo vs. Go Champion https://www.popularmechanics.com/technology/a19844/googles-alphago-ai-wins-first-round-against-go-champion/</p>
+</div>
 **IBM's Deep Blue**
-\begin{figure}
-\includegraphics[width=1\linewidth]{images/deepblue} \caption{One of the two towers of Deep Blue https://americanhistory.si.edu/collections/search/object/nmah_1005331}(\#fig:unnamed-chunk-4)
-\end{figure}
+<div class="figure">
+<img src="images/deepblue.jpg" alt="One of the two towers of Deep Blue https://americanhistory.si.edu/collections/search/object/nmah_1005331" width="100%" />
+<p class="caption">(\#fig:unnamed-chunk-4)One of the two towers of Deep Blue https://americanhistory.si.edu/collections/search/object/nmah_1005331</p>
+</div>
 #### Expert systems {-}
 
 An expert system is a program that answers and/or solves specific problems using logical rules derived from the field experts that these problems belong to.
