@@ -40,6 +40,7 @@ The first computers were mechanical computers. This computers were designed to s
 -   **2011:** IBM's Watson defeats human champions in Jeopardy!, showcasing the potential of artificial intelligence.
 
 -   **2019:** Quantum supremacy is achieved as Google's quantum computer performs a task faster than traditional supercomputers, signaling a new frontier in computing.
+
 ### Birth of AI- 1950 {.unnumbered}
 
 During this time, Alan Turing proposed that machines should be able to use information and reasoning to solve problems and make decisions.On his paper, "Computing Machinery and Intelligence"[@AI_timeline], Turing discusses how to build this artificial intelligence machines.
