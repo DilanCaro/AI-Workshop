@@ -1,8 +1,8 @@
 # Showcase Activity: Using Chatgpt, Bard, and other LLM {-}
 
-##
-## Participants will work in groups to create a simple AI-powered chatbot using ChatGPT or similar technology  {-}
+## Participants will have the opportunity to give ideas for ChatGPT, bard input  {-}
 
-## They will design conversation flows, train the model, and integrate it into a user interface  {-}
+## Showcase of talking to a PDF {-}
 
-## Each group will present their chatbots to the rest of the participants  {-}
+## Brief coding attempt using ChatGPT  {-}
+

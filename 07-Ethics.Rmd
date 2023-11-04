@@ -38,3 +38,29 @@ Beyond bias, deploying AI models raises a host of ethical considerations. Some k
 -   Regulation and Governance: Governments and organizations should consider regulatory frameworks and governance structures to oversee AI deployment and ensure adherence to ethical principles.
 
 Ethics in AI is an evolving field, and addressing these challenges requires collaboration among technologists, policymakers, ethicists, and society at large. As AI and language models become increasingly integrated into our lives, a commitment to ethical principles and fairness is essential to ensure that these technologies serve the greater good while minimizing harm and bias.
+
+
+## Issues that may arise in the near future of AI: {-}
+
+- AI algorithms taking over social functions leads to new design requirements like transparency, predictability, auditability, robustness against manipulation.
+- Who takes responsibility when an AI system fails at its task?
+
+## Challenges for ensuring safe AI as it approaches human intelligence: {-}
+
+- AI algorithms operating across novel contexts requires specifying goals in terms of consequences rather than specific behaviors.
+- Verifying AI safety becomes challenging since we must verify what the system is trying to do rather than its behaviors.
+- Ethical cognition itself must be engineered into AI.
+
+
+## Assessing whether AIs have moral status: {-}
+
+- Sentience (capacity for phenomenal experience) may confer some moral status.
+- Sapience (self-awareness, reason-responsiveness) may confer full moral status.
+- The substrate and origin of an AI are not relevant to moral status if functionality and experience are equivalent.
+
+## Differences between humans and AIs relevant to ethics: {-}
+
+- AIs could lack sentience but have sapience.
+- AIs can have variable subjective rates of time.
+- AIs may have exotic properties related to reproduction.
+

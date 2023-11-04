@@ -11,12 +11,12 @@
 <meta property="og:title" content="Understanding Large Language Models | AI: Unleashing the Power of Large Language Models">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://dilancaro.github.io/AI-Workshop/understanding-large-language-models-1.html">
-<meta property="og:image" content="https://dilancaro.github.io/AI-Workshop/images/AI_DALLE3.jpg">
+<meta property="og:image" content="https://dilancaro.github.io/AI-Workshop/images/AI_Dalle_Bing.jpeg">
 <meta property="og:description" content="Large Language Models (LLMs) represent a pivotal development in the field of artificial intelligence. These models, often referred to as LLMs, are transforming the way we process and generate...">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Understanding Large Language Models | AI: Unleashing the Power of Large Language Models">
 <meta name="twitter:description" content="Large Language Models (LLMs) represent a pivotal development in the field of artificial intelligence. These models, often referred to as LLMs, are transforming the way we process and generate...">
-<meta name="twitter:image" content="https://dilancaro.github.io/AI-Workshop/images/AI_DALLE3.jpg">
+<meta name="twitter:image" content="https://dilancaro.github.io/AI-Workshop/images/AI_Dalle_Bing.jpeg">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.5.1/transition.js"></script><script src="libs/bs3compat-0.5.1/tabs.js"></script><script src="libs/bs3compat-0.5.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -68,8 +68,7 @@
 
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
         <ul class="book-toc list-unstyled">
-<li><a class="" href="index.html">AI: UNLEASHING THE POWER OF LARGE LANGUAGE MODELS  Workshop at John Jay College of Criminal Justice</a></li>
-<li><a class="" href="welcome.html">Welcome</a></li>
+<li><a class="" href="index.html">Welcome</a></li>
 <li><a class="" href="introduction-to-artificial-intelligence-ai-1.html">Introduction to Artificial Intelligence (AI)</a></li>
 <li><a class="active" href="understanding-large-language-models-1.html">Understanding Large Language Models</a></li>
 <li><a class="" href="exploring-chatgpt-1.html">Exploring ChatGPT</a></li>
@@ -79,8 +78,9 @@
 <li><a class="" href="ethics-and-challenges-1.html">Ethics and Challenges</a></li>
 <li><a class="" href="showcase-activity-using-chatgpt-bard-and-other-llm-1.html">Showcase Activity: Using Chatgpt, Bard, and other LLM</a></li>
 <li><a class="" href="future-trends-and-beyond-1.html">Future Trends and Beyond</a></li>
-<li><a class="" href="other-ai-tools.html">Other AI tools</a></li>
+<li><a class="" href="ai-tools.html">AI tools</a></li>
 <li><a class="" href="qa-and-wrap-up-1.html">Q&amp;A and Wrap-up</a></li>
+<li><a class="" href="ai-tutorials.html">AI Tutorials</a></li>
 <li><a class="" href="references.html">References</a></li>
 </ul>
 
@@ -98,6 +98,40 @@
 </h2>
 <p>Large Language Models are a category of artificial intelligence models designed to process and generate human language. They are characterized by their massive size, which encompasses millions or even billions of parameters, enabling them to capture intricate patterns, contexts, and nuances within textual data. LLMs are trained on vast corpora of text from the internet, allowing them to develop a broad and diverse understanding of language.</p>
 <p>These models are versatile and can be fine-tuned for various natural language processing (NLP) tasks, such as text classification, language translation, text summarization, and even creative text generation. They have found applications across industries, including healthcare, finance, customer support, and content generation.</p>
+<div id="so-how-do-they-work" class="section level3 unnumbered">
+<h3>So, How do they work?<a class="anchor" aria-label="anchor" href="#so-how-do-they-work"><i class="fas fa-link"></i></a>
+</h3>
+<p>There are different types of neural networks, some very well known are : Recurrent Neural Networks (RNN) – Long-Short Term memory (LSTM), Convolutional Neural Networks (CNN) and they have been used as the backbone of LLMs. Google translate used to use LSTM on its engine until they developed the transformer architecture which improved their machine translation.</p>
+<p>Sequential processing is a cornerstone of many neural network architectures designed to handle data where the order and context are important. In sequential processing, an input is processed one element at a time, with the sequence order preserved. This is particularly important in tasks like natural language processing, where the meaning of a sentence can be highly dependent on word order.</p>
+<p><strong>Past Information and Hidden States</strong></p>
+<p>In the context of sequential data, retaining information from previous inputs is crucial. Recurrent Neural Networks (RNNs), and more specifically Long Short-Term Memory (LSTM) networks or Gated Recurrent Units (GRUs), are designed to remember past information through their hidden states. Each hidden state contains information about the previous elements of the sequence, which influences the processing of the current and future elements. This allows the network to make decisions based on both the current input and what it has “seen” previously.</p>
+<div class="figure">
+<span style="display:block;" id="fig:unnamed-chunk-1"></span>
+<img src="images/rnn.png" alt="unrolled RNN" width="100%" height="20%"><p class="caption">
+Figure 1: unrolled RNN
+</p>
+</div>
+<p>As seen on the image above, an unrolled RNN would take the amount of time as the number of inputs.</p>
+<p><strong>Convolutional Neural Networks (CNNs)</strong></p>
+<p>While CNNs are predominantly known for their application in image processing, they have also been adapted for sequential data such as text. When applied to text, CNNs can be implemented as multichannel networks, where each channel might use a different size of kernels, or filters, to capture various features from the input data. For instance, in text processing, small kernels can capture local information (like n-grams), while larger kernels can capture more global, contextual information.</p>
+<p>Using multiple kernel sizes allows the model to learn representations of the data at different granularities. In natural language processing, this could mean capturing both the meaning of individual words and the broader semantics of phrases or sentences.</p>
+<p><strong>CNNs and Larger Texts</strong></p>
+<p>However, CNNs face challenges when dealing with very large texts. As the size of the input grows, the number of kernels—and consequently the computational resources and processing time required—increases significantly. This scaling issue makes CNNs less feasible for tasks involving large texts. The sheer number of parameters that would need to be learned and stored becomes unmanageable for long sequences.</p>
+<p>In “Attention Is All You Need” paper introduces the Transformer, a neural network that excels in language understanding by utilizing a self-attention mechanism, outperforming traditional recurrent and convolutional models. It is more efficient, requiring fewer computational steps and less training time, and works well with parallel-processing hardware. The Transformer’s attention mechanism allows for immediate context comprehension, improving tasks like translation and coreference resolution. Its effectiveness is also evident in tasks like syntactic constituency parsing. The open-sourced Tensor2Tensor library enables easy experimentation with the Transformer model, promising applications beyond language to include images and videos.</p>
+<p>We can see the improvement in language translation in the following graphs.</p>
+<div class="figure">
+<span style="display:block;" id="fig:unnamed-chunk-2"></span>
+<img src="images/Google_GNMT_1.png" alt="English to German Translation https://blog.research.google/2017/08/transformer-novel-neural-network.html" width="100%" height="20%"><p class="caption">
+Figure 2: English to German Translation <a href="https://blog.research.google/2017/08/transformer-novel-neural-network.html" class="uri">https://blog.research.google/2017/08/transformer-novel-neural-network.html</a>
+</p>
+</div>
+<div class="figure">
+<span style="display:block;" id="fig:unnamed-chunk-3"></span>
+<img src="images/Google_GNMT_2.png" alt="English to French Translation https://blog.research.google/2017/08/transformer-novel-neural-network.html" width="100%"><p class="caption">
+Figure 3: English to French Translation <a href="https://blog.research.google/2017/08/transformer-novel-neural-network.html" class="uri">https://blog.research.google/2017/08/transformer-novel-neural-network.html</a>
+</p>
+</div>
+</div>
 </div>
 <div id="how-do-they-work-transformer-architecture" class="section level2 unnumbered">
 <h2>How do they work? (Transformer architecture)<a class="anchor" aria-label="anchor" href="#how-do-they-work-transformer-architecture"><i class="fas fa-link"></i></a>
@@ -123,7 +157,9 @@
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
 <li><a class="nav-link" href="#understanding-large-language-models-1">Understanding Large Language Models</a></li>
-<li><a class="nav-link" href="#what-are-large-language-models">What are large language models?</a></li>
+<li>
+<a class="nav-link" href="#what-are-large-language-models">What are large language models?</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#so-how-do-they-work">So, How do they work?</a></li></ul>
+</li>
 <li><a class="nav-link" href="#how-do-they-work-transformer-architecture">How do they work? (Transformer architecture)</a></li>
 <li><a class="nav-link" href="#gpt-generative-pre-trained-transformer-models-overview">GPT (Generative Pre-trained Transformer) models overview</a></li>
 </ul>
@@ -143,7 +179,7 @@
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>AI: Unleashing the Power of Large Language Models</strong>" was written by Dilan Morales Caro. It was last built on 2023-10-12.</p>
+    <p>"<strong>AI: Unleashing the Power of Large Language Models</strong>" was written by Dilan Morales Caro. It was last built on 2023-11-04.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

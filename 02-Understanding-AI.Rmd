@@ -8,6 +8,45 @@ Large Language Models are a category of artificial intelligence models designed 
 
 These models are versatile and can be fine-tuned for various natural language processing (NLP) tasks, such as text classification, language translation, text summarization, and even creative text generation. They have found applications across industries, including healthcare, finance, customer support, and content generation.
 
+### So, How do they work? {-}
+There are different types of neural networks, some very well known are : Recurrent Neural Networks (RNN) – Long-Short Term memory (LSTM), Convolutional Neural Networks (CNN) and they have been used as the backbone of LLMs. Google translate used to use LSTM on its engine until they developed the transformer architecture which improved their machine translation.
+
+Sequential processing is a cornerstone of many neural network architectures designed to handle data where the order and context are important. In sequential processing, an input is processed one element at a time, with the sequence order preserved. This is particularly important in tasks like natural language processing, where the meaning of a sentence can be highly dependent on word order.
+
+**Past Information and Hidden States**
+
+In the context of sequential data, retaining information from previous inputs is crucial. Recurrent Neural Networks (RNNs), and more specifically Long Short-Term Memory (LSTM) networks or Gated Recurrent Units (GRUs), are designed to remember past information through their hidden states. Each hidden state contains information about the previous elements of the sequence, which influences the processing of the current and future elements. This allows the network to make decisions based on both the current input and what it has "seen" previously.
+
+```{r, echo=FALSE,out.width="100%",fig.cap="unrolled RNN",out.height="20%",fig.show='hold'}
+knitr::include_graphics("images/rnn.png")
+```
+
+As seen on the image above, an unrolled RNN would take the amount of time as the number of inputs. 
+
+**Convolutional Neural Networks (CNNs)**
+
+While CNNs are predominantly known for their application in image processing, they have also been adapted for sequential data such as text. When applied to text, CNNs can be implemented as multichannel networks, where each channel might use a different size of kernels, or filters, to capture various features from the input data. For instance, in text processing, small kernels can capture local information (like n-grams), while larger kernels can capture more global, contextual information.
+
+Using multiple kernel sizes allows the model to learn representations of the data at different granularities. In natural language processing, this could mean capturing both the meaning of individual words and the broader semantics of phrases or sentences.
+
+
+**CNNs and Larger Texts**
+
+However, CNNs face challenges when dealing with very large texts. As the size of the input grows, the number of kernels—and consequently the computational resources and processing time required—increases significantly. This scaling issue makes CNNs less feasible for tasks involving large texts. The sheer number of parameters that would need to be learned and stored becomes unmanageable for long sequences.
+
+In "Attention Is All You Need" paper introduces the Transformer, a neural network that excels in language understanding by utilizing a self-attention mechanism, outperforming traditional recurrent and convolutional models. It is more efficient, requiring fewer computational steps and less training time, and works well with parallel-processing hardware. The Transformer's attention mechanism allows for immediate context comprehension, improving tasks like translation and coreference resolution. Its effectiveness is also evident in tasks like syntactic constituency parsing. The open-sourced Tensor2Tensor library enables easy experimentation with the Transformer model, promising applications beyond language to include images and videos.
+
+We can see the improvement in language translation in the following graphs.
+
+
+```{r, echo=FALSE,out.width="100%",fig.cap="English to German Translation https://blog.research.google/2017/08/transformer-novel-neural-network.html",out.height="20%",fig.show='hold'}
+knitr::include_graphics("images/Google_GNMT_1.png")
+```
+
+```{r, echo=FALSE,out.width="100%",fig.cap="English to French Translation https://blog.research.google/2017/08/transformer-novel-neural-network.html",fig.show='hold'}
+knitr::include_graphics("images/Google_GNMT_2.png")
+```
+
 ## How do they work? (Transformer architecture)  {-}
 
 [@NVIDIA]
